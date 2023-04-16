@@ -1,0 +1,38 @@
+@media (max-width: 500px) {
+  .item {
+    /* phần navbar */
+    display: block;
+    text-align: left;
+    border: none;
+  }
+  .experience .body-card,
+  .activate .body-card,
+  .language .body-card,
+  .interest .body-card,
+  .education .body-card,
+  .interest .body-card,
+  .skill .body-card,
+  .no1,
+  .no2,
+  .no3 {
+    /* các thẻ của dự án và thông tin các nhân */
+    padding-bottom: 20px !important;
+  }
+  #project {
+    /* phần dự án */
+    padding: 0 !important;
+  }
+  .st,
+  .rd,
+  .th {
+    /* phần giải thưởng */
+    border: none;
+  }
+
+  #footer {
+    /* phần footer */
+    padding-top: 20px;
+  }
+
+  /* phần nâng cao bài 3 */
+}

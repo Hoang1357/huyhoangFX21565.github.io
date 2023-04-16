@@ -1,0 +1,147 @@
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #a3 {
+    /* ô ở giữa của phần navbar */
+    display: none;
+  }
+
+  /* phần thông tin cá nhân */
+  .info {
+    list-style: none;
+    margin-bottom: 0px;
+  }
+  #target {
+    padding-top: 0px;
+    /* border-right: 1px solid #eee; */
+    background-color: #f7f7f7;
+  }
+  #personal-info {
+    background-color: #f3f3f3;
+  }
+  .personal-info h1,
+  .info,
+  .personal-info .icon {
+    margin-left: 0px;
+  }
+  #target h1,
+  .target-info p {
+    margin-left: 0px;
+  }
+
+  /* phần sở thích */
+  #article i {
+    font-size: 20px;
+    color: dodgerblue;
+  }
+  #article div {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    border: solid 1px dodgerblue;
+    border-radius: 50%;
+  }
+  #article {
+    /* Phần thông tin của interest */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0;
+    column-gap: 10px;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+  #article div:nth-child(4) {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+  #article p:last-child {
+    grid-row: 4 / 5;
+    grid-column: -4 / -3;
+  }
+
+  .experience h1,
+  .activate h1,
+  .language h1,
+  .interest h1,
+  .education h1,
+  .interest h1,
+  .skill h1 {
+    font-size: 28px;
+  }
+  /* .education .body-card {
+    padding-bottom: 31px;
+  }
+  .interest .body-card {
+    padding-bottom: 180px;
+  }
+  .language .body-card {
+    padding-bottom: 243px;
+  }
+  .skill .body-card {
+    padding-bottom: 45px;
+  } */
+
+  /* phần giải thưởng */
+  .st,
+  .rd,
+  .th {
+    /* thông tin từng phần riêng biệt của certificate */
+    display: block;
+    padding-bottom: 20px;
+  }
+  .rd img {
+    border: none;
+  }
+
+  /* phần dự án */
+  .no1 {
+    padding-bottom: 92px;
+  }
+  .no3 {
+    padding-bottom: 66px;
+  }
+
+  /* phần nâng cao bài 3 */
+  #main-digital {
+    display: block !important;
+  }
+  .goals,
+  .team,
+  .primary,
+  .timeline {
+    grid-template-columns: 1fr !important;
+  }
+  .goals div {
+    border: none !important;
+  }
+  .goals p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bebebe;
+  }
+  .icon {
+    margin: 0 auto;
+  }
+
+  .timeline {
+    align-items: left;
+    justify-items: left;
+  }
+  .number {
+    /* phần số của timeline */
+    margin-top: 10px;
+  }
+  .number p {
+    font-size: 1em;
+    border-radius: 50%;
+    padding: 7px 12px !important;
+  }
+}

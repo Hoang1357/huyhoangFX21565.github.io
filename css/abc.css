@@ -1,0 +1,6 @@
+ul#main-menu .sub-menu {
+  display: none;
+}
+ul#main-menu li:hover .sub-menu {
+  display: block;
+}

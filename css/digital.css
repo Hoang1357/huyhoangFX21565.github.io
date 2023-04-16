@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  position: relative;
+}
+h1 {
+  color: blue;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #bebebe;
+}
+h4 {
+  font-weight: bold;
+}
+#main-digital {
+  /* bố cục trang web */
+  background-color: rgb(232, 239, 245);
+  border: 20px solid rgb(32, 32, 236);
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  grid-template-rows: 1.5fr 1fr;
+}
+section {
+  border: 10px solid rgb(32, 32, 236);
+}
+.info-digital {
+  /* thông tin của từng phần */
+  margin: 0 40px;
+  padding: auto;
+}
+.icon {
+  /* phần icon  */
+  font-size: 36px;
+}
+#Timeline {
+  /* phần timeline */
+  grid-column: 3 / -1;
+  grid-row: 1/ -1;
+}
+#Scopes {
+  grid-column: 1 / 2;
+  grid-row: 2/ 3;
+}
+.goals,
+.team,
+.primary,
+.timeline {
+  /* phần 1, 3, 4, 5 */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.goals div {
+  /* phần 1 */
+  padding-top: 10px;
+  border-bottom: 1px solid #bebebe;
+}
+.team div,
+.col,
+.primary div,
+.timeline h4,
+.scopes h4 {
+  padding-top: 10px;
+}
+
+.primary p {
+  padding-top: 6px;
+}
+
+.number {
+  /* phần số của timeline */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 2em;
+  color: white;
+}
+
+.number p {
+  margin: 0;
+  background-color: rgb(176, 115, 255);
+  border: 2px solid #6e6e6e;
+  border-radius: 50%;
+  padding: 10px 16px;
+}
